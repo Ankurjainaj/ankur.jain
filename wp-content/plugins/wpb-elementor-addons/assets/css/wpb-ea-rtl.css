@@ -1,0 +1,28 @@
+/*
+Plugin Name: WPB Elementor Addons
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+/* ==========================================================================
+   # Plugin CSS
+   ========================================================================== */
+.wpb-ea-content-items-slider .owl-prev,
+.wpb-ea-member-items-slider .owl-prev,
+.wpb-ea-testimonial-items-slider .owl-prev,
+.wpb-ea-posts-slider .owl-prev {
+    left: inherit;
+    right: -10%;
+}
+.wpb-ea-content-items-slider .owl-next,
+.wpb-ea-member-items-slider .owl-next,
+.wpb-ea-testimonial-items-slider .owl-next,
+.wpb-ea-posts-slider .owl-next {
+    right: inherit;
+    left: -10%;
+}

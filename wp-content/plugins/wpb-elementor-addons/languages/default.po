@@ -1,0 +1,2068 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPB Elementor Addons\n"
+"POT-Creation-Date: 2019-03-27 04:35+0600\n"
+"PO-Revision-Date: 2019-03-27 04:35+0600\n"
+"Last-Translator: wpbean <imranmodel35@gmail.com>\n"
+"Language-Team: WpBean <imran@wpbean.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: admin\n"
+"X-Poedit-SearchPath-1: inc\n"
+"X-Poedit-SearchPath-2: templates\n"
+
+#: admin/class.settings-api.php:368
+msgid "Choose File"
+msgstr ""
+
+#: admin/plugin-settings.php:32
+msgid "WPB Elementor Addons"
+msgstr ""
+
+#: admin/plugin-settings.php:33
+msgid "WPB EA Addons"
+msgstr ""
+
+#: admin/plugin-settings.php:46
+msgid "General Settings"
+msgstr ""
+
+#: admin/plugin-settings.php:62
+msgid "Addons"
+msgstr ""
+
+#: admin/plugin-settings.php:63
+msgid "Enabale/Disable addons."
+msgstr ""
+
+#: admin/plugin-settings.php:80 templates/content_box.php:37
+msgid "Content Box"
+msgstr ""
+
+#: admin/plugin-settings.php:81
+msgid "CounterUp"
+msgstr ""
+
+#: admin/plugin-settings.php:82 templates/fancy_list.php:36
+msgid "Fancy List"
+msgstr ""
+
+#: admin/plugin-settings.php:83
+msgid "Filterable Image Gallery"
+msgstr ""
+
+#: admin/plugin-settings.php:84 templates/logo_slider.php:38
+msgid "Logo Slider"
+msgstr ""
+
+#: admin/plugin-settings.php:85
+msgid "Post Grid/Slider"
+msgstr ""
+
+#: admin/plugin-settings.php:86 templates/pricing_tables.php:19
+msgid "Pricing Table"
+msgstr ""
+
+#: admin/plugin-settings.php:87 templates/service_box.php:19
+#: templates/service_box.php:36
+msgid "Service Box"
+msgstr ""
+
+#: admin/plugin-settings.php:88 templates/content_box.php:49
+#: templates/post_grid_slider.php:211 templates/slider.php:19
+#: templates/team_members.php:56 templates/testimonials.php:49
+msgid "Slider"
+msgstr ""
+
+#: admin/plugin-settings.php:89 templates/team_members.php:19
+msgid "Team Member"
+msgstr ""
+
+#: admin/plugin-settings.php:90 templates/testimonials.php:19
+msgid "Testimonial"
+msgstr ""
+
+#: admin/plugin-settings.php:91
+msgid "Video Popup"
+msgstr ""
+
+#: admin/plugin-settings.php:92 templates/timeline.php:37
+msgid "Timeline"
+msgstr ""
+
+#: admin/plugin-settings.php:97
+msgid "Primary color"
+msgstr ""
+
+#: admin/plugin-settings.php:98
+msgid "Select your primary color. Default: #3878ff"
+msgstr ""
+
+#: admin/plugin-settings.php:104
+msgid "Primary color light"
+msgstr ""
+
+#: admin/plugin-settings.php:105
+msgid "Select your primary color. Default: #7ca6ff"
+msgstr ""
+
+#: admin/plugin-settings.php:111
+msgid "Primary color dark"
+msgstr ""
+
+#: admin/plugin-settings.php:112
+msgid "Select your primary color. Default: #004dcb"
+msgstr ""
+
+#: inc/wpb_functions.php:130
+msgid "WPB ELEMENTOR ADDONS"
+msgstr ""
+
+#: templates/content_box.php:19
+msgid "WPB Content Box"
+msgstr ""
+
+#: templates/content_box.php:45 templates/post_grid_slider.php:207
+#: templates/team_members.php:52 templates/testimonials.php:45
+msgid "Content Type"
+msgstr ""
+
+#: templates/content_box.php:50 templates/post_grid_slider.php:212
+#: templates/service_box.php:80 templates/team_members.php:57
+#: templates/testimonials.php:50
+msgid "Grid"
+msgstr ""
+
+#: templates/content_box.php:60
+msgid "Content Items"
+msgstr ""
+
+#: templates/content_box.php:64
+msgid "Content Box 1"
+msgstr ""
+
+#: templates/content_box.php:65 templates/content_box.php:69
+#: templates/content_box.php:73 templates/content_box.php:87
+msgid "Lorem Ipsum is placeholder text commonly used in the graphic, print."
+msgstr ""
+
+#: templates/content_box.php:68
+msgid "Content Box 2"
+msgstr ""
+
+#: templates/content_box.php:72
+msgid "Content Box 3"
+msgstr ""
+
+#: templates/content_box.php:79 templates/content_box.php:576
+#: templates/counter.php:98 templates/counter.php:114
+#: templates/image_gallery.php:106 templates/logo_slider.php:50
+#: templates/post_grid_slider.php:388 templates/post_grid_slider.php:1097
+#: templates/service_box.php:53 templates/service_box.php:108
+#: templates/slider.php:64 templates/team_members.php:94
+#: templates/team_members.php:647 templates/testimonials.php:123
+#: templates/testimonials.php:580 templates/timeline.php:121
+msgid "Image"
+msgstr ""
+
+#: templates/content_box.php:84 templates/content_box.php:716
+#: templates/counter.php:125 templates/image_gallery.php:113
+#: templates/post_grid_slider.php:266 templates/post_grid_slider.php:502
+#: templates/post_grid_slider.php:1263 templates/pricing_tables.php:44
+#: templates/pricing_tables.php:45 templates/service_box.php:120
+#: templates/service_box.php:479 templates/slider.php:69
+#: templates/testimonials.php:88 templates/testimonials.php:774
+#: templates/timeline.php:111
+msgid "Title"
+msgstr ""
+
+#: templates/content_box.php:86 templates/service_box.php:121
+msgid "Place your title text here."
+msgstr ""
+
+#: templates/content_box.php:91 templates/pricing_tables.php:56
+#: templates/service_box.php:130 templates/service_box.php:524
+msgid "Description"
+msgstr ""
+
+#: templates/content_box.php:93 templates/service_box.php:132
+msgid "Place your description text here."
+msgstr ""
+
+#: templates/content_box.php:94 templates/service_box.php:133
+#: templates/team_members.php:117
+msgid ""
+"Lorem Ipsum is placeholder text commonly used in the graphic, print, and "
+"publishing industries."
+msgstr ""
+
+#: templates/content_box.php:98
+msgid "Item Background"
+msgstr ""
+
+#: templates/content_box.php:102
+msgid "White"
+msgstr ""
+
+#: templates/content_box.php:103
+msgid "Blue"
+msgstr ""
+
+#: templates/content_box.php:104
+msgid "Purple"
+msgstr ""
+
+#: templates/content_box.php:105
+msgid "Red"
+msgstr ""
+
+#: templates/content_box.php:106
+msgid "Orange"
+msgstr ""
+
+#: templates/content_box.php:107
+msgid "Coral"
+msgstr ""
+
+#: templates/content_box.php:108
+msgid "Sky blue"
+msgstr ""
+
+#: templates/content_box.php:109
+msgid "Grey"
+msgstr ""
+
+#: templates/content_box.php:110
+msgid "Bruschetta Tomato"
+msgstr ""
+
+#: templates/content_box.php:122 templates/team_members.php:192
+msgid "Extra CSS"
+msgstr ""
+
+#: templates/content_box.php:132 templates/counter.php:227
+#: templates/fancy_list.php:93 templates/image_gallery.php:192
+#: templates/logo_slider.php:67 templates/post_grid_slider.php:373
+#: templates/pricing_tables.php:283 templates/slider.php:116
+#: templates/team_members.php:202 templates/testimonials.php:145
+#: templates/video_popup.php:168
+msgid "Extra CSS clss"
+msgstr ""
+
+#: templates/content_box.php:134 templates/counter.php:229
+#: templates/fancy_list.php:95 templates/image_gallery.php:194
+#: templates/logo_slider.php:69 templates/post_grid_slider.php:375
+#: templates/pricing_tables.php:285 templates/slider.php:118
+#: templates/team_members.php:204 templates/testimonials.php:147
+#: templates/video_popup.php:170
+msgid "Put your extra CSS class if you need."
+msgstr ""
+
+#: templates/content_box.php:135 templates/counter.php:230
+#: templates/fancy_list.php:96 templates/image_gallery.php:195
+#: templates/logo_slider.php:70 templates/post_grid_slider.php:376
+#: templates/pricing_tables.php:286 templates/slider.php:119
+#: templates/team_members.php:205 templates/testimonials.php:148
+#: templates/video_popup.php:171
+msgid "your-extra-css-class"
+msgstr ""
+
+#: templates/content_box.php:155 templates/logo_slider.php:79
+#: templates/post_grid_slider.php:749 templates/slider.php:146
+#: templates/team_members.php:226 templates/testimonials.php:168
+msgid "Carousel Settings"
+msgstr ""
+
+#: templates/content_box.php:168 templates/logo_slider.php:100
+#: templates/post_grid_slider.php:762 templates/slider.php:156
+#: templates/team_members.php:239 templates/testimonials.php:181
+msgid "Show Prev/Next Arrows?"
+msgstr ""
+
+#: templates/content_box.php:179 templates/logo_slider.php:112
+#: templates/post_grid_slider.php:773 templates/slider.php:167
+#: templates/team_members.php:250 templates/testimonials.php:192
+msgid "Show dot indicators for navigation?"
+msgstr ""
+
+#: templates/content_box.php:190 templates/logo_slider.php:124
+#: templates/post_grid_slider.php:784 templates/slider.php:178
+#: templates/team_members.php:261 templates/testimonials.php:203
+msgid "Pause on Hover?"
+msgstr ""
+
+#: templates/content_box.php:201 templates/logo_slider.php:136
+#: templates/post_grid_slider.php:795 templates/slider.php:189
+#: templates/team_members.php:272 templates/testimonials.php:214
+msgid "Autoplay?"
+msgstr ""
+
+#: templates/content_box.php:204 templates/logo_slider.php:141
+#: templates/post_grid_slider.php:798 templates/slider.php:192
+#: templates/team_members.php:275 templates/testimonials.php:217
+msgid "Show the carousel autoplay as in a slideshow."
+msgstr ""
+
+#: templates/content_box.php:213 templates/logo_slider.php:149
+#: templates/post_grid_slider.php:806 templates/slider.php:201
+#: templates/team_members.php:284 templates/testimonials.php:226
+msgid "Loop?"
+msgstr ""
+
+#: templates/content_box.php:216 templates/logo_slider.php:152
+#: templates/post_grid_slider.php:812 templates/slider.php:204
+#: templates/team_members.php:287 templates/testimonials.php:229
+msgid "Show the carousel loop as in a slideshow."
+msgstr ""
+
+#: templates/content_box.php:224 templates/logo_slider.php:160
+#: templates/post_grid_slider.php:820 templates/team_members.php:295
+#: templates/testimonials.php:237
+msgid "Gap between the slider items"
+msgstr ""
+
+#: templates/content_box.php:242 templates/logo_slider.php:178
+#: templates/post_grid_slider.php:838 templates/team_members.php:313
+#: templates/testimonials.php:255
+msgid "Gap below the slider item"
+msgstr ""
+
+#: templates/content_box.php:266 templates/logo_slider.php:197
+#: templates/post_grid_slider.php:860 templates/team_members.php:337
+#: templates/testimonials.php:279
+msgid "Responsive Options"
+msgstr ""
+
+#: templates/content_box.php:274 templates/logo_slider.php:205
+#: templates/logo_slider.php:226 templates/post_grid_slider.php:868
+#: templates/team_members.php:345 templates/testimonials.php:287
+msgid "Desktop"
+msgstr ""
+
+#: templates/content_box.php:283 templates/image_gallery.php:157
+#: templates/post_grid_slider.php:877 templates/team_members.php:354
+#: templates/testimonials.php:296
+msgid "Number of Columns"
+msgstr ""
+
+#: templates/content_box.php:287 templates/content_box.php:376
+#: templates/counter.php:146 templates/post_grid_slider.php:881
+#: templates/post_grid_slider.php:970 templates/team_members.php:358
+#: templates/team_members.php:447 templates/testimonials.php:300
+#: templates/testimonials.php:389
+msgid "6 Columns"
+msgstr ""
+
+#: templates/content_box.php:288 templates/content_box.php:377
+#: templates/counter.php:147 templates/post_grid_slider.php:882
+#: templates/post_grid_slider.php:971 templates/team_members.php:359
+#: templates/team_members.php:448 templates/testimonials.php:301
+#: templates/testimonials.php:390
+msgid "4 Columns"
+msgstr ""
+
+#: templates/content_box.php:289 templates/content_box.php:378
+#: templates/counter.php:148 templates/post_grid_slider.php:883
+#: templates/post_grid_slider.php:972 templates/team_members.php:360
+#: templates/team_members.php:449 templates/testimonials.php:302
+#: templates/testimonials.php:391
+msgid "3 Columns"
+msgstr ""
+
+#: templates/content_box.php:290 templates/content_box.php:379
+#: templates/counter.php:149 templates/post_grid_slider.php:884
+#: templates/post_grid_slider.php:973 templates/team_members.php:361
+#: templates/team_members.php:450 templates/testimonials.php:303
+#: templates/testimonials.php:392
+msgid "2 Columns"
+msgstr ""
+
+#: templates/content_box.php:291 templates/content_box.php:380
+#: templates/counter.php:150 templates/post_grid_slider.php:885
+#: templates/post_grid_slider.php:974 templates/team_members.php:362
+#: templates/team_members.php:451 templates/testimonials.php:304
+#: templates/testimonials.php:393
+msgid "1 Columns"
+msgstr ""
+
+#: templates/content_box.php:303 templates/content_box.php:331
+#: templates/content_box.php:356 templates/content_box.php:404
+#: templates/logo_slider.php:214 templates/logo_slider.php:235
+#: templates/logo_slider.php:256 templates/logo_slider.php:277
+#: templates/post_grid_slider.php:897 templates/post_grid_slider.php:925
+#: templates/post_grid_slider.php:950 templates/post_grid_slider.php:995
+#: templates/team_members.php:374 templates/team_members.php:402
+#: templates/team_members.php:427 templates/team_members.php:472
+#: templates/testimonials.php:316 templates/testimonials.php:344
+#: templates/testimonials.php:369 templates/testimonials.php:414
+msgid "Columns per row"
+msgstr ""
+
+#: templates/content_box.php:318 templates/post_grid_slider.php:912
+#: templates/team_members.php:389 templates/testimonials.php:331
+msgid "Desktop Small"
+msgstr ""
+
+#: templates/content_box.php:346 templates/logo_slider.php:247
+#: templates/post_grid_slider.php:940 templates/team_members.php:417
+#: templates/testimonials.php:359
+msgid "Tablet"
+msgstr ""
+
+#: templates/content_box.php:372 templates/counter.php:142
+#: templates/post_grid_slider.php:966 templates/team_members.php:443
+#: templates/testimonials.php:385
+msgid "Column"
+msgstr ""
+
+#: templates/content_box.php:391 templates/logo_slider.php:268
+#: templates/post_grid_slider.php:985 templates/team_members.php:462
+#: templates/testimonials.php:404
+msgid "Mobile Phone"
+msgstr ""
+
+#: templates/content_box.php:438
+msgid "Content Box Style"
+msgstr ""
+
+#: templates/content_box.php:447 templates/counter.php:254
+#: templates/counter.php:371 templates/image_gallery.php:220
+#: templates/image_gallery.php:356 templates/image_gallery.php:424
+#: templates/post_grid_slider.php:1077 templates/post_grid_slider.php:1227
+#: templates/post_grid_slider.php:1391 templates/post_grid_slider.php:1783
+#: templates/post_grid_slider.php:1890 templates/post_grid_slider.php:2033
+#: templates/post_grid_slider.php:2139 templates/pricing_tables.php:310
+#: templates/pricing_tables.php:326 templates/pricing_tables.php:808
+#: templates/pricing_tables.php:896 templates/service_box.php:181
+#: templates/slider.php:240 templates/slider.php:284
+#: templates/slider.php:357 templates/team_members.php:515
+#: templates/testimonials.php:458
+msgid "Background Color"
+msgstr ""
+
+#: templates/content_box.php:460 templates/content_box.php:642
+#: templates/counter.php:266 templates/image_gallery.php:232
+#: templates/image_gallery.php:305 templates/image_gallery.php:514
+#: templates/post_grid_slider.php:1024 templates/post_grid_slider.php:1358
+#: templates/pricing_tables.php:342 templates/pricing_tables.php:364
+#: templates/pricing_tables.php:746 templates/service_box.php:195
+#: templates/service_box.php:217 templates/team_members.php:540
+#: templates/team_members.php:713 templates/team_members.php:835
+#: templates/team_members.php:897 templates/testimonials.php:471
+#: templates/testimonials.php:823 templates/testimonials.php:885
+#: templates/testimonials.php:947 templates/testimonials.php:1010
+#: templates/video_popup.php:290 templates/video_popup.php:311
+msgid "Padding"
+msgstr ""
+
+#: templates/content_box.php:479 templates/content_box.php:655
+#: templates/content_box.php:747 templates/content_box.php:792
+#: templates/counter.php:279 templates/counter.php:424
+#: templates/counter.php:474 templates/image_gallery.php:245
+#: templates/image_gallery.php:317 templates/image_gallery.php:526
+#: templates/post_grid_slider.php:1043 templates/post_grid_slider.php:1169
+#: templates/post_grid_slider.php:1243 templates/post_grid_slider.php:1303
+#: templates/post_grid_slider.php:1465 templates/post_grid_slider.php:1530
+#: templates/post_grid_slider.php:1604 templates/post_grid_slider.php:1689
+#: templates/pricing_tables.php:386 templates/pricing_tables.php:402
+#: templates/pricing_tables.php:765 templates/service_box.php:240
+#: templates/service_box.php:366 templates/service_box.php:511
+#: templates/service_box.php:556 templates/team_members.php:553
+#: templates/team_members.php:726 templates/team_members.php:822
+#: templates/team_members.php:884 templates/team_members.php:946
+#: templates/testimonials.php:484 templates/testimonials.php:810
+#: templates/testimonials.php:872 templates/testimonials.php:934
+#: templates/testimonials.php:997
+msgid "Margin"
+msgstr ""
+
+#: templates/content_box.php:499 templates/content_box.php:669
+#: templates/counter.php:293 templates/image_gallery.php:259
+#: templates/pricing_tables.php:422 templates/team_members.php:573
+#: templates/team_members.php:740 templates/testimonials.php:504
+msgid "Border Type"
+msgstr ""
+
+#: templates/content_box.php:508 templates/content_box.php:678
+#: templates/counter.php:302 templates/image_gallery.php:268
+#: templates/image_gallery.php:379 templates/image_gallery.php:473
+#: templates/image_gallery.php:547 templates/post_grid_slider.php:1062
+#: templates/post_grid_slider.php:1146 templates/pricing_tables.php:431
+#: templates/pricing_tables.php:848 templates/service_box.php:256
+#: templates/service_box.php:451 templates/team_members.php:582
+#: templates/team_members.php:749 templates/testimonials.php:513
+#: templates/testimonials.php:664 templates/video_popup.php:268
+msgid "Border Radius"
+msgstr ""
+
+#: templates/content_box.php:539 templates/fancy_list.php:141
+#: templates/post_grid_slider.php:338 templates/pricing_tables.php:462
+#: templates/service_box.php:273 templates/team_members.php:610
+#: templates/testimonials.php:541
+msgid "Alignment"
+msgstr ""
+
+#: templates/content_box.php:543 templates/counter.php:163
+#: templates/post_grid_slider.php:342 templates/pricing_tables.php:466
+#: templates/service_box.php:95 templates/service_box.php:277
+#: templates/team_members.php:614 templates/testimonials.php:545
+msgid "Left"
+msgstr ""
+
+#: templates/content_box.php:547 templates/fancy_list.php:149
+#: templates/post_grid_slider.php:346 templates/pricing_tables.php:470
+#: templates/service_box.php:281 templates/team_members.php:618
+#: templates/testimonials.php:549
+msgid "Center"
+msgstr ""
+
+#: templates/content_box.php:551 templates/counter.php:171
+#: templates/post_grid_slider.php:350 templates/pricing_tables.php:474
+#: templates/service_box.php:96 templates/service_box.php:285
+#: templates/team_members.php:622 templates/testimonials.php:553
+msgid "Right"
+msgstr ""
+
+#: templates/content_box.php:555 templates/post_grid_slider.php:354
+#: templates/pricing_tables.php:478 templates/service_box.php:289
+#: templates/team_members.php:626 templates/testimonials.php:557
+msgid "Justified"
+msgstr ""
+
+#: templates/content_box.php:585 templates/service_box.php:394
+msgid "Enable Lightbox"
+msgstr ""
+
+#: templates/content_box.php:597 templates/logo_slider.php:302
+#: templates/timeline.php:59
+msgid "Image Size"
+msgstr ""
+
+#: templates/content_box.php:606 templates/logo_slider.php:311
+#: templates/post_grid_slider.php:419 templates/service_box.php:415
+#: templates/team_members.php:677
+msgid "Custom Height?"
+msgstr ""
+
+#: templates/content_box.php:617 templates/logo_slider.php:322
+#: templates/post_grid_slider.php:434 templates/service_box.php:426
+#: templates/team_members.php:688
+msgid "Image height"
+msgstr ""
+
+#: templates/content_box.php:707 templates/counter.php:340
+#: templates/pricing_tables.php:499 templates/service_box.php:470
+msgid "Content Style"
+msgstr ""
+
+#: templates/content_box.php:725 templates/counter.php:358
+#: templates/counter.php:395 templates/image_gallery.php:612
+#: templates/image_gallery.php:648 templates/image_gallery.php:684
+#: templates/post_grid_slider.php:1210 templates/post_grid_slider.php:1286
+#: templates/post_grid_slider.php:1375 templates/post_grid_slider.php:1448
+#: templates/post_grid_slider.php:1509 templates/post_grid_slider.php:1585
+#: templates/pricing_tables.php:661 templates/service_box.php:322
+#: templates/service_box.php:489 templates/service_box.php:534
+#: templates/slider.php:257 templates/slider.php:301
+#: templates/team_members.php:797 templates/team_members.php:859
+#: templates/team_members.php:921 templates/testimonials.php:739
+#: templates/testimonials.php:785 templates/testimonials.php:847
+#: templates/testimonials.php:909 templates/testimonials.php:971
+msgid "Color"
+msgstr ""
+
+#: templates/content_box.php:760
+msgid "Description Style"
+msgstr ""
+
+#: templates/content_box.php:770
+msgid "Description Color"
+msgstr ""
+
+#: templates/content_box.php:811 templates/logo_slider.php:350
+#: templates/post_grid_slider.php:2215 templates/slider.php:218
+#: templates/team_members.php:1001 templates/testimonials.php:1029
+msgid "Carousel"
+msgstr ""
+
+#: templates/content_box.php:824 templates/logo_slider.php:360
+#: templates/post_grid_slider.php:2228 templates/team_members.php:1014
+#: templates/testimonials.php:1042
+msgid "Navigation Background Color"
+msgstr ""
+
+#: templates/content_box.php:845 templates/logo_slider.php:402
+#: templates/post_grid_slider.php:2248 templates/team_members.php:1034
+#: templates/testimonials.php:1062
+msgid "Navigation Color"
+msgstr ""
+
+#: templates/content_box.php:866 templates/logo_slider.php:422
+#: templates/post_grid_slider.php:2269 templates/slider.php:330
+#: templates/team_members.php:1055 templates/testimonials.php:1083
+msgid "Pagination Color"
+msgstr ""
+
+#: templates/counter.php:19
+msgid "WPB CounterUp"
+msgstr ""
+
+#: templates/counter.php:54
+msgid "CounterUp Details"
+msgstr ""
+
+#: templates/counter.php:61
+msgid "CounterUp Items"
+msgstr ""
+
+#: templates/counter.php:67
+msgid "Happy Clients"
+msgstr ""
+
+#: templates/counter.php:72
+msgid "Completed Projects"
+msgstr ""
+
+#: templates/counter.php:77
+msgid "Cups of Coffee"
+msgstr ""
+
+#: templates/counter.php:82
+msgid "Lines of Code"
+msgstr ""
+
+#: templates/counter.php:90 templates/service_box.php:45
+msgid "Type"
+msgstr ""
+
+#: templates/counter.php:94 templates/counter.php:105
+#: templates/fancy_list.php:74 templates/fancy_list.php:168
+#: templates/service_box.php:49 templates/service_box.php:63
+#: templates/testimonials.php:729 templates/timeline.php:93
+msgid "Icon"
+msgstr ""
+
+#: templates/counter.php:131
+msgid "Number"
+msgstr ""
+
+#: templates/counter.php:159
+msgid "Icon/Image Position"
+msgstr ""
+
+#: templates/counter.php:167
+msgid "Top"
+msgstr ""
+
+#: templates/counter.php:183
+msgid "Icon Font Size"
+msgstr ""
+
+#: templates/counter.php:204
+msgid "Icon Circle or Image Size"
+msgstr ""
+
+#: templates/counter.php:245
+msgid "counterup Box Style"
+msgstr ""
+
+#: templates/counter.php:349 templates/image_gallery.php:673
+#: templates/service_box.php:313
+msgid "Icon Style"
+msgstr ""
+
+#: templates/counter.php:384
+msgid "Number Style"
+msgstr ""
+
+#: templates/counter.php:437
+msgid "Title Style"
+msgstr ""
+
+#: templates/counter.php:448 templates/pricing_tables.php:518
+msgid "Title color"
+msgstr ""
+
+#: templates/fancy_list.php:19
+msgid "WPB Fancy List"
+msgstr ""
+
+#: templates/fancy_list.php:43
+msgid "List Type"
+msgstr ""
+
+#: templates/fancy_list.php:47 templates/service_box.php:79
+#: templates/video_popup.php:48
+msgid "Default"
+msgstr ""
+
+#: templates/fancy_list.php:48
+msgid "Boxed"
+msgstr ""
+
+#: templates/fancy_list.php:56
+msgid "Lists"
+msgstr ""
+
+#: templates/fancy_list.php:59 templates/image_gallery.php:58
+msgid "Travel and Aviation Consulting"
+msgstr ""
+
+#: templates/fancy_list.php:60 templates/image_gallery.php:63
+msgid "Business Services Consulting"
+msgstr ""
+
+#: templates/fancy_list.php:61 templates/image_gallery.php:68
+msgid "Consumer Products Consulting"
+msgstr ""
+
+#: templates/fancy_list.php:68 templates/post_grid_slider.php:656
+#: templates/post_grid_slider.php:1551 templates/slider.php:75
+#: templates/team_members.php:778 templates/testimonials.php:95
+#: templates/testimonials.php:710 templates/testimonials.php:836
+#: templates/timeline.php:117 templates/video_popup.php:49
+msgid "Content"
+msgstr ""
+
+#: templates/fancy_list.php:69
+msgid "List title"
+msgstr ""
+
+#: templates/fancy_list.php:81 templates/post_grid_slider.php:461
+#: templates/post_grid_slider.php:521 templates/service_box.php:152
+#: templates/slider.php:87 templates/timeline.php:134
+#: templates/video_popup.php:124
+msgid "Link"
+msgstr ""
+
+#: templates/fancy_list.php:82 templates/timeline.php:135
+msgid "https://yoursite.com"
+msgstr ""
+
+#: templates/fancy_list.php:111
+msgid "List"
+msgstr ""
+
+#: templates/fancy_list.php:120
+msgid "Space Between"
+msgstr ""
+
+#: templates/fancy_list.php:145
+msgid "Start"
+msgstr ""
+
+#: templates/fancy_list.php:153
+msgid "End"
+msgstr ""
+
+#: templates/fancy_list.php:177
+msgid "Space Between Icon and Text"
+msgstr ""
+
+#: templates/fancy_list.php:197 templates/timeline.php:189
+msgid "Icon Color"
+msgstr ""
+
+#: templates/fancy_list.php:213 templates/service_box.php:337
+msgid "Icon Background Color"
+msgstr ""
+
+#: templates/fancy_list.php:230
+msgid "Size"
+msgstr ""
+
+#: templates/fancy_list.php:252 templates/pricing_tables.php:162
+#: templates/pricing_tables.php:231
+msgid "Text"
+msgstr ""
+
+#: templates/fancy_list.php:261 templates/image_gallery.php:343
+#: templates/image_gallery.php:411 templates/post_grid_slider.php:1761
+#: templates/post_grid_slider.php:2011 templates/post_grid_slider.php:2117
+#: templates/pricing_tables.php:795 templates/pricing_tables.php:883
+msgid "Text Color"
+msgstr ""
+
+#: templates/fancy_list.php:275
+msgid "Link Color"
+msgstr ""
+
+#: templates/fancy_list.php:289
+msgid "Link Hover Color"
+msgstr ""
+
+#: templates/image_gallery.php:19
+msgid "WPB Gallery"
+msgstr ""
+
+#: templates/image_gallery.php:46
+msgid "Gallery Items"
+msgstr ""
+
+#: templates/image_gallery.php:53
+msgid "All Items"
+msgstr ""
+
+#: templates/image_gallery.php:59
+msgid "drone photography"
+msgstr ""
+
+#: templates/image_gallery.php:60 templates/image_gallery.php:85
+#: templates/image_gallery.php:100
+msgid "Photography"
+msgstr ""
+
+#: templates/image_gallery.php:64
+msgid "first time free"
+msgstr ""
+
+#: templates/image_gallery.php:65
+msgid "Branding,Design"
+msgstr ""
+
+#: templates/image_gallery.php:69
+msgid "quality product"
+msgstr ""
+
+#: templates/image_gallery.php:70
+msgid "Technology,Photography"
+msgstr ""
+
+#: templates/image_gallery.php:73
+msgid "Awesome Design"
+msgstr ""
+
+#: templates/image_gallery.php:74
+msgid "perfect finishing"
+msgstr ""
+
+#: templates/image_gallery.php:75
+msgid "Design,Technology"
+msgstr ""
+
+#: templates/image_gallery.php:78
+msgid "Charming Technology"
+msgstr ""
+
+#: templates/image_gallery.php:79
+msgid "quadcopter"
+msgstr ""
+
+#: templates/image_gallery.php:80
+msgid "Technology,Branding"
+msgstr ""
+
+#: templates/image_gallery.php:83
+msgid "Studio Photography Lighting"
+msgstr ""
+
+#: templates/image_gallery.php:84
+msgid "photography and graphic"
+msgstr ""
+
+#: templates/image_gallery.php:88
+msgid "Refreshing Drinks"
+msgstr ""
+
+#: templates/image_gallery.php:89
+msgid "coffee"
+msgstr ""
+
+#: templates/image_gallery.php:90
+msgid "Branding"
+msgstr ""
+
+#: templates/image_gallery.php:93
+msgid "Software Testing"
+msgstr ""
+
+#: templates/image_gallery.php:94
+msgid "debug finder"
+msgstr ""
+
+#: templates/image_gallery.php:95
+msgid "Design,Branding"
+msgstr ""
+
+#: templates/image_gallery.php:98
+msgid "Aerial Photography"
+msgstr ""
+
+#: templates/image_gallery.php:99
+msgid "drone capture"
+msgstr ""
+
+#: templates/image_gallery.php:114
+msgid "Item Title"
+msgstr ""
+
+#: templates/image_gallery.php:119 templates/pricing_tables.php:54
+#: templates/pricing_tables.php:55
+msgid "Subtitle"
+msgstr ""
+
+#: templates/image_gallery.php:120
+msgid "item sub-title"
+msgstr ""
+
+#: templates/image_gallery.php:124
+msgid "Gallery Category"
+msgstr ""
+
+#: templates/image_gallery.php:126
+msgid ""
+"Comma separate gallery categories. Example - Design,Branding,Technology."
+msgstr ""
+
+#: templates/image_gallery.php:136
+msgid "Text for all categories"
+msgstr ""
+
+#: templates/image_gallery.php:138 templates/image_gallery.php:139
+msgid "All Categories"
+msgstr ""
+
+#: templates/image_gallery.php:150
+msgid "Gallery Settings"
+msgstr ""
+
+#: templates/image_gallery.php:161
+msgid "Single Column"
+msgstr ""
+
+#: templates/image_gallery.php:162
+msgid "Two Columns"
+msgstr ""
+
+#: templates/image_gallery.php:163
+msgid "Three Columns"
+msgstr ""
+
+#: templates/image_gallery.php:164
+msgid "Four Columns"
+msgstr ""
+
+#: templates/image_gallery.php:165
+msgid "Six Columns"
+msgstr ""
+
+#: templates/image_gallery.php:173
+msgid "Zero Padding between columns?"
+msgstr ""
+
+#: templates/image_gallery.php:211
+msgid "Gallery Style"
+msgstr ""
+
+#: templates/image_gallery.php:298
+msgid "Gallery Control Style"
+msgstr ""
+
+#: templates/image_gallery.php:337 templates/post_grid_slider.php:1748
+#: templates/post_grid_slider.php:1998 templates/pricing_tables.php:789
+msgid "Normal"
+msgstr ""
+
+#: templates/image_gallery.php:370 templates/image_gallery.php:464
+#: templates/image_gallery.php:539 templates/pricing_tables.php:839
+msgid "Border"
+msgstr ""
+
+#: templates/image_gallery.php:405 templates/slider.php:346
+msgid "Active"
+msgstr ""
+
+#: templates/image_gallery.php:436
+msgid "Border Bottom?"
+msgstr ""
+
+#: templates/image_gallery.php:447
+msgid "Border Bottom Color"
+msgstr ""
+
+#: templates/image_gallery.php:506
+msgid "Gallery Item Style"
+msgstr ""
+
+#: templates/image_gallery.php:569
+msgid "Color &amp; Typography"
+msgstr ""
+
+#: templates/image_gallery.php:578 templates/logo_slider.php:292
+#: templates/service_box.php:385
+msgid "Image Style"
+msgstr ""
+
+#: templates/image_gallery.php:587 templates/post_grid_slider.php:1109
+msgid "Hover Overlay Color"
+msgstr ""
+
+#: templates/image_gallery.php:601
+msgid "Caption Title Style"
+msgstr ""
+
+#: templates/image_gallery.php:637
+msgid "Caption Subtitle Style"
+msgstr ""
+
+#: templates/logo_slider.php:19
+msgid "WPB Logo Slider"
+msgstr ""
+
+#: templates/logo_slider.php:45
+msgid "Logos"
+msgstr ""
+
+#: templates/logo_slider.php:57
+msgid "Link to"
+msgstr ""
+
+#: templates/logo_slider.php:88 templates/team_members.php:656
+#: templates/testimonials.php:589
+msgid "Enale Lightbox"
+msgstr ""
+
+#: templates/logo_slider.php:92
+msgid "If you enable lightbox then image link won't work."
+msgstr ""
+
+#: templates/logo_slider.php:101 templates/logo_slider.php:113
+msgid "Show"
+msgstr ""
+
+#: templates/logo_slider.php:102 templates/logo_slider.php:114
+msgid "Hide"
+msgstr ""
+
+#: templates/logo_slider.php:125 templates/logo_slider.php:137
+#: templates/post_grid_slider.php:808 templates/team_members.php:529
+#: templates/timeline.php:226
+msgid "Yes"
+msgstr ""
+
+#: templates/logo_slider.php:126 templates/logo_slider.php:138
+#: templates/post_grid_slider.php:809 templates/team_members.php:530
+#: templates/timeline.php:227
+msgid "No"
+msgstr ""
+
+#: templates/logo_slider.php:381
+msgid "Navigation Hover Background Color"
+msgstr ""
+
+#: templates/post_grid_slider.php:19
+msgid "WPB Post Grid/Slider"
+msgstr ""
+
+#: templates/post_grid_slider.php:101
+msgid "at "
+msgstr ""
+
+#: templates/post_grid_slider.php:199
+msgid "Post Options"
+msgstr ""
+
+#: templates/post_grid_slider.php:221
+msgid "Post Type"
+msgstr ""
+
+#: templates/post_grid_slider.php:233 templates/post_grid_slider.php:246
+#: templates/post_grid_slider.php:607
+msgid "Category"
+msgstr ""
+
+#: templates/post_grid_slider.php:260
+msgid "Order by"
+msgstr ""
+
+#: templates/post_grid_slider.php:263
+msgid "No order"
+msgstr ""
+
+#: templates/post_grid_slider.php:264
+msgid "Post ID"
+msgstr ""
+
+#: templates/post_grid_slider.php:265 templates/post_grid_slider.php:606
+msgid "Author"
+msgstr ""
+
+#: templates/post_grid_slider.php:267
+msgid "Published date"
+msgstr ""
+
+#: templates/post_grid_slider.php:268
+msgid "Modified date"
+msgstr ""
+
+#: templates/post_grid_slider.php:269
+msgid "By parent"
+msgstr ""
+
+#: templates/post_grid_slider.php:270
+msgid "Random order"
+msgstr ""
+
+#: templates/post_grid_slider.php:271
+msgid "Comment count"
+msgstr ""
+
+#: templates/post_grid_slider.php:272
+msgid "Menu order"
+msgstr ""
+
+#: templates/post_grid_slider.php:273
+msgid "By include order"
+msgstr ""
+
+#: templates/post_grid_slider.php:283
+msgid "Order"
+msgstr ""
+
+#: templates/post_grid_slider.php:286
+msgid "Ascending"
+msgstr ""
+
+#: templates/post_grid_slider.php:287
+msgid "Descending"
+msgstr ""
+
+#: templates/post_grid_slider.php:296
+msgid "Number of posts to show"
+msgstr ""
+
+#: templates/post_grid_slider.php:306
+msgid "Post In"
+msgstr ""
+
+#: templates/post_grid_slider.php:307
+msgid "Provide a comma separated list of Post IDs to display spacific post."
+msgstr ""
+
+#: templates/post_grid_slider.php:317
+msgid "Exclude"
+msgstr ""
+
+#: templates/post_grid_slider.php:319
+msgid "Provide a comma separated list of Post IDs to exclude specific post."
+msgstr ""
+
+#: templates/post_grid_slider.php:327
+msgid "Show only post has feature image. Default: Yes."
+msgstr ""
+
+#: templates/post_grid_slider.php:396
+msgid "Show Image?"
+msgstr ""
+
+#: templates/post_grid_slider.php:479 templates/post_grid_slider.php:1187
+#: templates/timeline.php:101
+msgid "Date"
+msgstr ""
+
+#: templates/post_grid_slider.php:487
+msgid "Show Date?"
+msgstr ""
+
+#: templates/post_grid_slider.php:510
+msgid "Show Title?"
+msgstr ""
+
+#: templates/post_grid_slider.php:539 templates/post_grid_slider.php:1321
+#: templates/post_grid_slider.php:1482
+msgid "Meta"
+msgstr ""
+
+#: templates/post_grid_slider.php:547
+msgid "Show Reviews?"
+msgstr ""
+
+#: templates/post_grid_slider.php:561
+msgid "Show Tag For Featured Product?"
+msgstr ""
+
+#: templates/post_grid_slider.php:576
+msgid "Featured Product Tag"
+msgstr ""
+
+#: templates/post_grid_slider.php:577
+msgid "Sale"
+msgstr ""
+
+#: templates/post_grid_slider.php:589
+msgid "Show Meta?"
+msgstr ""
+
+#: templates/post_grid_slider.php:600
+msgid "Display"
+msgstr ""
+
+#: templates/post_grid_slider.php:608
+msgid "Tags"
+msgstr ""
+
+#: templates/post_grid_slider.php:609
+msgid "Comments"
+msgstr ""
+
+#: templates/post_grid_slider.php:623
+msgid "No. Of Categories"
+msgstr ""
+
+#: templates/post_grid_slider.php:624
+msgid "How many categories to display?"
+msgstr ""
+
+#: templates/post_grid_slider.php:625 templates/post_grid_slider.php:640
+msgid "1"
+msgstr ""
+
+#: templates/post_grid_slider.php:638
+msgid "No. of Tags"
+msgstr ""
+
+#: templates/post_grid_slider.php:639
+msgid "How many tags to display?"
+msgstr ""
+
+#: templates/post_grid_slider.php:664
+msgid "Display Excerpt?"
+msgstr ""
+
+#: templates/post_grid_slider.php:675
+msgid "Excerpt Length"
+msgstr ""
+
+#: templates/post_grid_slider.php:688 templates/post_grid_slider.php:1620
+#: templates/pricing_tables.php:73 templates/pricing_tables.php:74
+msgid "Price"
+msgstr ""
+
+#: templates/post_grid_slider.php:701 templates/post_grid_slider.php:1718
+#: templates/post_grid_slider.php:1968 templates/pricing_tables.php:176
+msgid "Button"
+msgstr ""
+
+#: templates/post_grid_slider.php:715 templates/service_box.php:140
+#: templates/slider.php:81
+msgid "Button Text"
+msgstr ""
+
+#: templates/post_grid_slider.php:717 templates/post_grid_slider.php:718
+msgid "Continue Reading"
+msgstr ""
+
+#: templates/post_grid_slider.php:731
+msgid "Show Add To Cart Button?"
+msgstr ""
+
+#: templates/post_grid_slider.php:1015
+msgid "Post Item"
+msgstr ""
+
+#: templates/post_grid_slider.php:1111
+msgid "Leave blank or Clear to use default gradient overlay"
+msgstr ""
+
+#: templates/post_grid_slider.php:1124
+msgid "Hover Overlay Color Opacity."
+msgstr ""
+
+#: templates/post_grid_slider.php:1330
+msgid "Tag"
+msgstr ""
+
+#: templates/post_grid_slider.php:1408
+msgid "Review"
+msgstr ""
+
+#: templates/post_grid_slider.php:1421
+msgid "Font Size"
+msgstr ""
+
+#: templates/post_grid_slider.php:1560
+msgid "Excerpt"
+msgstr ""
+
+#: templates/post_grid_slider.php:1635
+msgid "Regular Price Color"
+msgstr ""
+
+#: templates/post_grid_slider.php:1656
+msgid "Offer Price Color"
+msgstr ""
+
+#: templates/post_grid_slider.php:1818 templates/post_grid_slider.php:1925
+#: templates/post_grid_slider.php:2068 templates/post_grid_slider.php:2174
+msgid "Button padding"
+msgstr ""
+
+#: templates/post_grid_slider.php:1835 templates/post_grid_slider.php:1942
+#: templates/post_grid_slider.php:2085 templates/post_grid_slider.php:2191
+msgid "Button border radius"
+msgstr ""
+
+#: templates/post_grid_slider.php:1854 templates/post_grid_slider.php:2104
+#: templates/pricing_tables.php:877 templates/slider.php:273
+msgid "Hover"
+msgstr ""
+
+#: templates/post_grid_slider.php:1867
+msgid "Text Color666"
+msgstr ""
+
+#: templates/post_grid_slider.php:2425
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: templates/post_grid_slider.php:2425
+msgid "out of 5"
+msgstr ""
+
+#: templates/post_grid_slider.php:2437
+msgid "by "
+msgstr ""
+
+#: templates/post_grid_slider.php:2457
+msgid "No reviews"
+msgstr ""
+
+#: templates/post_grid_slider.php:2457
+msgid "1 review"
+msgstr ""
+
+#: templates/post_grid_slider.php:2457
+msgid "% reviews"
+msgstr ""
+
+#: templates/post_grid_slider.php:2459
+msgid "No comments"
+msgstr ""
+
+#: templates/post_grid_slider.php:2459
+msgid "1 comment"
+msgstr ""
+
+#: templates/post_grid_slider.php:2459
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: templates/post_grid_slider.php:2463
+msgid "Reviews Disabled"
+msgstr ""
+
+#: templates/post_grid_slider.php:2465
+msgid "Comments Disabled"
+msgstr ""
+
+#: templates/pricing_tables.php:36
+msgid "Plan Title"
+msgstr ""
+
+#: templates/pricing_tables.php:46
+msgid "Pricing Plan"
+msgstr ""
+
+#: templates/pricing_tables.php:65
+msgid "Price Tag"
+msgstr ""
+
+#: templates/pricing_tables.php:75
+msgid "50"
+msgstr ""
+
+#: templates/pricing_tables.php:83 templates/pricing_tables.php:84
+msgid "Currency"
+msgstr ""
+
+#: templates/pricing_tables.php:85
+msgid "$"
+msgstr ""
+
+#: templates/pricing_tables.php:93
+msgid "Currency Position"
+msgstr ""
+
+#: templates/pricing_tables.php:96 templates/pricing_tables.php:195
+msgid "Before"
+msgstr ""
+
+#: templates/pricing_tables.php:97 templates/pricing_tables.php:196
+msgid "After"
+msgstr ""
+
+#: templates/pricing_tables.php:105
+msgid "Currency Spacing"
+msgstr ""
+
+#: templates/pricing_tables.php:129
+msgid "Period"
+msgstr ""
+
+#: templates/pricing_tables.php:130 templates/pricing_tables.php:131
+msgid "/month"
+msgstr ""
+
+#: templates/pricing_tables.php:141
+msgid "Features"
+msgstr ""
+
+#: templates/pricing_tables.php:148
+msgid "Plan Features"
+msgstr ""
+
+#: templates/pricing_tables.php:151
+msgid "Consectetur adipiscing"
+msgstr ""
+
+#: templates/pricing_tables.php:152
+msgid "Nunc luctus nulla et tellus"
+msgstr ""
+
+#: templates/pricing_tables.php:153
+msgid "Suspendisse quis metus"
+msgstr ""
+
+#: templates/pricing_tables.php:154
+msgid "Vestibul varius fermentum erat"
+msgstr ""
+
+#: templates/pricing_tables.php:155 templates/timeline.php:73
+#: templates/video_popup.php:99
+msgid "Lorem ipsum dolor sit amet"
+msgstr ""
+
+#: templates/pricing_tables.php:163
+msgid "Pricing feature"
+msgstr ""
+
+#: templates/pricing_tables.php:183
+msgid "Button Icon"
+msgstr ""
+
+#: templates/pricing_tables.php:191 templates/service_box.php:91
+msgid "Icon Position"
+msgstr ""
+
+#: templates/pricing_tables.php:207
+msgid "Icon Spacing"
+msgstr ""
+
+#: templates/pricing_tables.php:232 templates/pricing_tables.php:233
+msgid "GET STARTED"
+msgstr ""
+
+#: templates/pricing_tables.php:240 templates/service_box.php:150
+msgid "Button Link"
+msgstr ""
+
+#: templates/pricing_tables.php:256
+msgid "Settings"
+msgstr ""
+
+#: templates/pricing_tables.php:263
+msgid "If you want to highlight the pricing table. Default: no."
+msgstr ""
+
+#: templates/pricing_tables.php:273
+msgid "List Icon"
+msgstr ""
+
+#: templates/pricing_tables.php:301
+msgid "Pricing Table Style"
+msgstr ""
+
+#: templates/pricing_tables.php:508
+msgid "Plan Title Style"
+msgstr ""
+
+#: templates/pricing_tables.php:544
+msgid "Plan Subtitle Style"
+msgstr ""
+
+#: templates/pricing_tables.php:555
+msgid "Subtitle Color"
+msgstr ""
+
+#: templates/pricing_tables.php:580
+msgid "Price Currency Style"
+msgstr ""
+
+#: templates/pricing_tables.php:590
+msgid "Currency Color"
+msgstr ""
+
+#: templates/pricing_tables.php:615
+msgid "Price Tag Style"
+msgstr ""
+
+#: templates/pricing_tables.php:625
+msgid "Price Color"
+msgstr ""
+
+#: templates/pricing_tables.php:651
+msgid "Pricing Period Style"
+msgstr ""
+
+#: templates/pricing_tables.php:683
+msgid "Features Style"
+msgstr ""
+
+#: templates/pricing_tables.php:693
+msgid "Features Icon Color"
+msgstr ""
+
+#: templates/pricing_tables.php:709
+msgid "Features Color"
+msgstr ""
+
+#: templates/pricing_tables.php:737
+msgid "Button Style"
+msgstr ""
+
+#: templates/pricing_tables.php:822 templates/pricing_tables.php:910
+msgid "Border Color"
+msgstr ""
+
+#: templates/service_box.php:75
+msgid "Service Icon Style"
+msgstr ""
+
+#: templates/service_box.php:123
+msgid "Lorem Ipsum is dummy"
+msgstr ""
+
+#: templates/service_box.php:141
+msgid "Details button text."
+msgstr ""
+
+#: templates/service_box.php:143
+msgid "Read More"
+msgstr ""
+
+#: templates/service_box.php:159
+msgid "Title Link?"
+msgstr ""
+
+#: templates/service_box.php:172
+msgid "General Style Settings"
+msgstr ""
+
+#: templates/service_box.php:406 templates/team_members.php:668
+#: templates/testimonials.php:601
+msgid "Image Type"
+msgstr ""
+
+#: templates/service_box.php:568
+msgid "Button Color"
+msgstr ""
+
+#: templates/service_box.php:580
+msgid "Button Color Hover"
+msgstr ""
+
+#: templates/slider.php:37 templates/slider.php:45
+msgid "Slider Items"
+msgstr ""
+
+#: templates/slider.php:49
+msgid "Slider Title 1."
+msgstr ""
+
+#: templates/slider.php:50 templates/slider.php:54 templates/slider.php:58
+#: templates/slider.php:77 templates/testimonials.php:65
+#: templates/testimonials.php:72 templates/testimonials.php:79
+#: templates/testimonials.php:98
+msgid ""
+"Nullam a ultrices ex, quis finibus neque. Etiam facilisis consectetur ante "
+"ac bibendum. Sed pretium lacinia sollicitudin."
+msgstr ""
+
+#: templates/slider.php:53
+msgid "Slider Title 2."
+msgstr ""
+
+#: templates/slider.php:57
+msgid "Slider Title 3."
+msgstr ""
+
+#: templates/slider.php:71
+msgid "Slider Title"
+msgstr ""
+
+#: templates/slider.php:83
+msgid "CLICK HERE"
+msgstr ""
+
+#: templates/slider.php:96
+msgid "http://your-link.com"
+msgstr ""
+
+#: templates/slider.php:128
+msgid "Show Preloader?"
+msgstr ""
+
+#: templates/slider.php:131
+msgid "Show preloader on the slider."
+msgstr ""
+
+#: templates/slider.php:228
+msgid "Navigation"
+msgstr ""
+
+#: templates/slider.php:318
+msgid "pagination"
+msgstr ""
+
+#: templates/team_members.php:44
+msgid "Team Members"
+msgstr ""
+
+#: templates/team_members.php:67
+msgid "Display Social Profiles?"
+msgstr ""
+
+#: templates/team_members.php:78
+msgid "Member Items"
+msgstr ""
+
+#: templates/team_members.php:82 templates/team_members.php:103
+#: templates/testimonials.php:66 templates/testimonials.php:105
+msgid "John Doe"
+msgstr ""
+
+#: templates/team_members.php:85 templates/testimonials.php:73
+msgid "Aaron Sylvester"
+msgstr ""
+
+#: templates/team_members.php:88 templates/testimonials.php:80
+msgid "Sherry Hernandez"
+msgstr ""
+
+#: templates/team_members.php:100 templates/team_members.php:102
+#: templates/testimonials.php:102 templates/testimonials.php:898
+msgid "Name"
+msgstr ""
+
+#: templates/team_members.php:107 templates/testimonials.php:109
+msgid "Designation"
+msgstr ""
+
+#: templates/team_members.php:109
+msgid "Place member designation here."
+msgstr ""
+
+#: templates/team_members.php:110 templates/testimonials.php:67
+#: templates/testimonials.php:112
+msgid "Developer"
+msgstr ""
+
+#: templates/team_members.php:114
+msgid "Details"
+msgstr ""
+
+#: templates/team_members.php:116
+msgid "Place member description here."
+msgstr ""
+
+#: templates/team_members.php:121
+msgid "Social Profile"
+msgstr ""
+
+#: templates/team_members.php:127
+msgid "Email Address"
+msgstr ""
+
+#: templates/team_members.php:128
+msgid "Enter the email address of the team member."
+msgstr ""
+
+#: templates/team_members.php:133
+msgid "Facebook Page URL"
+msgstr ""
+
+#: templates/team_members.php:135
+msgid "URL of the Facebook page of the team member."
+msgstr ""
+
+#: templates/team_members.php:140
+msgid "Twitter Profile URL"
+msgstr ""
+
+#: templates/team_members.php:142
+msgid "URL of the Twitter page of the team member."
+msgstr ""
+
+#: templates/team_members.php:147
+msgid "LinkedIn Page URL"
+msgstr ""
+
+#: templates/team_members.php:149
+msgid "URL of the LinkedIn profile of the team member."
+msgstr ""
+
+#: templates/team_members.php:154
+msgid "Pinterest Page URL"
+msgstr ""
+
+#: templates/team_members.php:156
+msgid "URL of the Pinterest page for the team member."
+msgstr ""
+
+#: templates/team_members.php:161
+msgid "Dribbble Profile URL"
+msgstr ""
+
+#: templates/team_members.php:163
+msgid "URL of the Dribbble profile of the team member."
+msgstr ""
+
+#: templates/team_members.php:168
+msgid "GooglePlus Page URL"
+msgstr ""
+
+#: templates/team_members.php:169
+msgid "URL of the Google Plus page of the team member."
+msgstr ""
+
+#: templates/team_members.php:174
+msgid "Skype Profile URL"
+msgstr ""
+
+#: templates/team_members.php:175
+msgid "URL of the Skype profile of the team member."
+msgstr ""
+
+#: templates/team_members.php:180
+msgid "Instagram Page URL"
+msgstr ""
+
+#: templates/team_members.php:181
+msgid "URL of the Instagram feed for the team member."
+msgstr ""
+
+#: templates/team_members.php:506
+msgid "Member Box Style"
+msgstr ""
+
+#: templates/team_members.php:527
+msgid "Box Shadow"
+msgstr ""
+
+#: templates/team_members.php:787
+msgid "Member Name"
+msgstr ""
+
+#: templates/team_members.php:848
+msgid "Member Designation"
+msgstr ""
+
+#: templates/team_members.php:910
+msgid "Member Details"
+msgstr ""
+
+#: templates/team_members.php:969
+msgid "Social Info"
+msgstr ""
+
+#: templates/team_members.php:1161
+msgid "Send an email"
+msgstr ""
+
+#: templates/team_members.php:1163
+msgid "Follow on Facebook"
+msgstr ""
+
+#: templates/team_members.php:1165
+msgid "Subscribe to Twitter Feed"
+msgstr ""
+
+#: templates/team_members.php:1167
+msgid "View LinkedIn Profile"
+msgstr ""
+
+#: templates/team_members.php:1169
+msgid "Subscribe to Pinterest Feed"
+msgstr ""
+
+#: templates/team_members.php:1171
+msgid "View Dribbble Portfolio"
+msgstr ""
+
+#: templates/team_members.php:1173
+msgid "Follow on Google Plus"
+msgstr ""
+
+#: templates/team_members.php:1175
+msgid "Skype"
+msgstr ""
+
+#: templates/team_members.php:1177
+msgid "View Instagram Feed"
+msgstr ""
+
+#: templates/testimonials.php:37
+msgid "Testimonials"
+msgstr ""
+
+#: templates/testimonials.php:60
+msgid "Testimonial Items"
+msgstr ""
+
+#: templates/testimonials.php:64 templates/testimonials.php:91
+msgid "Professional Team"
+msgstr ""
+
+#: templates/testimonials.php:68 templates/testimonials.php:119
+msgid "ABC Company"
+msgstr ""
+
+#: templates/testimonials.php:71
+msgid "Awesome Support"
+msgstr ""
+
+#: templates/testimonials.php:74
+msgid "Designer"
+msgstr ""
+
+#: templates/testimonials.php:75
+msgid "Romp"
+msgstr ""
+
+#: templates/testimonials.php:78
+msgid "Excellenet Service"
+msgstr ""
+
+#: templates/testimonials.php:81
+msgid "C.E.O"
+msgstr ""
+
+#: templates/testimonials.php:82
+msgid "Ransohoffs"
+msgstr ""
+
+#: templates/testimonials.php:90
+msgid "Testimonial Title"
+msgstr ""
+
+#: templates/testimonials.php:97
+msgid "Testimonial Details."
+msgstr ""
+
+#: templates/testimonials.php:104
+msgid "Client's Name"
+msgstr ""
+
+#: templates/testimonials.php:111
+msgid "Client's Designation"
+msgstr ""
+
+#: templates/testimonials.php:116
+msgid "Company"
+msgstr ""
+
+#: templates/testimonials.php:118
+msgid "Client's Company"
+msgstr ""
+
+#: templates/testimonials.php:449
+msgid "Testimonial Box Style"
+msgstr ""
+
+#: templates/testimonials.php:610
+msgid "Image Width"
+msgstr ""
+
+#: templates/testimonials.php:631
+msgid "Border Color( Deep )"
+msgstr ""
+
+#: templates/testimonials.php:648
+msgid "Border Color( Light )"
+msgstr ""
+
+#: templates/testimonials.php:719
+msgid "Quote Icon"
+msgstr ""
+
+#: templates/testimonials.php:960
+msgid "Designation and Company"
+msgstr ""
+
+#: templates/timeline.php:19
+msgid "Content Timeline"
+msgstr ""
+
+#: templates/timeline.php:44
+msgid "Timeline Type"
+msgstr ""
+
+#: templates/timeline.php:48
+msgid "Left and Right"
+msgstr ""
+
+#: templates/timeline.php:49
+msgid "Left Side Only"
+msgstr ""
+
+#: templates/timeline.php:50
+msgid "Right Side Only"
+msgstr ""
+
+#: templates/timeline.php:67
+msgid "Timeline Items"
+msgstr ""
+
+#: templates/timeline.php:72 templates/timeline.php:78
+#: templates/timeline.php:84 templates/timeline.php:102
+msgid "March 23, 2020"
+msgstr ""
+
+#: templates/timeline.php:74 templates/timeline.php:80
+#: templates/timeline.php:86
+msgid ""
+"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. "
+"Quisque volutpat mattis eros."
+msgstr ""
+
+#: templates/timeline.php:79
+msgid "Donec nec justo eget felis"
+msgstr ""
+
+#: templates/timeline.php:85
+msgid "Morbi in sem quis dui placerat"
+msgstr ""
+
+#: templates/timeline.php:112
+msgid "Timeline item title"
+msgstr ""
+
+#: templates/timeline.php:128
+msgid "ShortCode"
+msgstr ""
+
+#: templates/timeline.php:129
+msgid "[products]"
+msgstr ""
+
+#: templates/timeline.php:153
+msgid "Style"
+msgstr ""
+
+#: templates/timeline.php:161
+msgid "Timeline Background"
+msgstr ""
+
+#: templates/timeline.php:175
+msgid "Icon Background"
+msgstr ""
+
+#: templates/timeline.php:203
+msgid "Timeline Bar Background"
+msgstr ""
+
+#: templates/timeline.php:224
+msgid "Timeline Shadow"
+msgstr ""
+
+#: templates/video_popup.php:19
+msgid "Video PopUp"
+msgstr ""
+
+#: templates/video_popup.php:37
+msgid "Vide PopUp"
+msgstr ""
+
+#: templates/video_popup.php:44
+msgid "Vide PopUp Type"
+msgstr ""
+
+#: templates/video_popup.php:50
+msgid "Fancy Content"
+msgstr ""
+
+#: templates/video_popup.php:59
+msgid "Choose Image"
+msgstr ""
+
+#: templates/video_popup.php:86
+msgid "Video Content Icon"
+msgstr ""
+
+#: templates/video_popup.php:97
+msgid "Video Title"
+msgstr ""
+
+#: templates/video_popup.php:109
+msgid "Video Content"
+msgstr ""
+
+#: templates/video_popup.php:112
+msgid ""
+"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. "
+"Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. "
+msgstr ""
+
+#: templates/video_popup.php:125
+msgid "Enter your YouTube link"
+msgstr ""
+
+#: templates/video_popup.php:133
+msgid "Link Title"
+msgstr ""
+
+#: templates/video_popup.php:135
+msgid "Watch Trailer"
+msgstr ""
+
+#: templates/video_popup.php:145
+msgid "Link Description"
+msgstr ""
+
+#: templates/video_popup.php:147
+msgid "Watch the Video (3:05)"
+msgstr ""
+
+#: templates/video_popup.php:159
+msgid "Play Icon"
+msgstr ""
+
+#: templates/video_popup.php:188
+msgid "Video PopUp Style"
+msgstr ""
+
+#: templates/video_popup.php:196
+msgid "Content Background Color"
+msgstr ""
+
+#: templates/video_popup.php:211
+msgid "Content Color"
+msgstr ""
+
+#: templates/video_popup.php:229
+msgid "Background Overlay Color"
+msgstr ""
+
+#: templates/video_popup.php:241
+msgid "Play Button Background Color"
+msgstr ""
+
+#: templates/video_popup.php:254
+msgid "Play Button Icon Color"
+msgstr ""
+
+#: templates/video_popup.php:332
+msgid "Icon Right Position"
+msgstr ""
+
+#: templates/video_popup.php:357
+msgid "Icon Top Position"
+msgstr ""

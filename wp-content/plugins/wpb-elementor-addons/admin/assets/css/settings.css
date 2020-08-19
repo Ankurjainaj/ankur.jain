@@ -1,0 +1,353 @@
+/**
+ * WPB Elementor Addons Admin Settings CSS
+ *
+ * Version: 1.0
+ */
+
+
+.wpb-ea-about-list li {
+	margin-bottom: 15px;
+}
+ul.wpb-ea-about-list i {
+  margin-right: 10px;
+  color: #27ae60;
+}
+.wpb-ea-btn {
+  display: inline-block;
+  background: #3498db;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 22px;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 5px;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.wpb-ea-btn:hover, .wpb-ea-btn:focus {
+	background: #2980b9;
+	color: #fff; 
+}
+.wpb-ea-btns {
+	margin-top: 20px;
+}
+.wpb-ea-btns .wpb-ea-btn {
+	margin-right: 15px;
+}
+.toggle-btn input[type=checkbox]:checked:before {
+  display: none!important;
+}
+.toggle-btn {
+  width: 40px;
+  height: 20px;
+  border-radius: 50px;
+  display: block;
+  position: relative;
+  background: #e74c3c;
+  cursor: pointer;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  -moz-transition: background-color 0.4s ease-in-out;
+  -o-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+  cursor: pointer;
+}
+.form-table td fieldset label.toggle-btn {
+    margin: 0!important;
+}
+.toggle-btn.active {
+  background: #2ecc71;
+}
+.toggle-btn.active .round-btn {
+  left: 22px;
+}
+.toggle-btn .round-btn {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 3px;
+  top: 50%;
+  margin-top: -8px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.toggle-btn .cb-value {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 9;
+  cursor: pointer;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+span.field-desc {
+    display: block;
+    margin-top: 8px;
+}
+.wpb-ea-settings-wrap .group > form > h2 {
+  display: none;
+}
+.about-wrap.wpb-ea-settings-wrap {
+  max-width: unset;
+  margin: 25px 15px 0;
+  position: relative;
+}
+.form-addons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  width: auto;
+}
+.form-addons-container .form-addon {
+  flex: 0 100%;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+.form-addons-container .form-addon .form-addon-inner {
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 5px 18px 0px rgba(0, 4, 32, 0.08);
+  position: relative;
+  height: 100%;
+}
+.form-addons-container .form-addon .addon-switch {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.form-addons-container .addon-name i {
+  font-size: 30px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.form-addons-container .addon-title {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+.form-addons-container .addon-desc {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.42);
+}
+.form-addons-container .form-addon.form-addons-section-title {
+  flex: inherit;
+  width: 100%;
+  max-width: 100%;
+  flex-basis: auto;
+  background: transparent;
+  box-shadow: none;
+  margin-bottom: 40px;
+}
+.form-addons-container .form-addon.form-addons-section-title .form-addon-inner {
+  border-left: 4px solid #3498db;
+}
+.form-addons-container > .form-addon.form-addons-section-title:not(:first-child){
+  margin-top: 50px;
+}
+.form-addons-container .form-addon.form-addons-section-title .addon-switch {
+  display: none;
+}
+.form-addons-container .form-addon.form-addons-section-title .addon-title {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: unset;
+  margin-bottom: 0;
+}
+.wpb-ea-settings-submit.wpb-ea-settings-submit-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.wpb-ea-settings-submit .wpb-ea-settings-submit-top-inner {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 20px;
+  align-items: center;
+  box-shadow: 0px 5px 18px 0px rgba(0, 4, 32, 0.08);
+  border-radius: 5px;
+}
+.wpb-ea-settings-submit.wpb-ea-settings-submit-top h3 {
+  margin: 0;
+  line-height: normal;
+}
+.wpb-ea-settings-submit.wpb-ea-settings-submit-top p {
+  margin: 0;
+  padding: 0;
+}
+.wpb-ea-settings-submit .button {
+  padding: 15px;
+  border-radius: 5px;
+  height: unset;
+  line-height: normal;
+  font-weight: 600;
+  font-size: 15px;
+  background: #3498db;
+  border: 0;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.wpb-ea-settings-submit .button:hover, .wpb-ea-settings-submit .button:focus {
+  background: #2980b9;
+}
+.wpb-ea-settings-wrap .form-table {
+  background: #fff;
+  box-shadow: 0px 5px 18px 0px rgba(0, 4, 32, 0.08);
+  border-radius: 5px;
+}
+.wpb-ea-settings-wrap .form-table th {
+  padding: 20px 10px 20px 20px;
+}
+.wpb-ea-settings-wrap .form-table td {
+  padding: 20px 10px;
+}
+.wrap.wpb-ea-wrap.about-wrap {
+  background: #fff;
+  box-shadow: 0px 5px 18px 0px rgba(0, 4, 32, 0.08);
+  padding: 20px;
+  margin-left: 0;
+}
+.wrap.wpb-ea-wrap.about-wrap .wp-badge {
+  margin: 0;
+  right: 20px;
+  top: 20px;
+}
+.about-wrap.wpb-ea-settings-wrap .nav-tab-wrapper {
+  margin-bottom: 25px;
+  border-bottom: 1px solid #e2e1e1;
+}
+.about-wrap.wpb-ea-settings-wrap.wpb-ea-settings-sections-yes .nav-tab-wrapper {
+  padding-top: 130px;
+}
+.about-wrap.wpb-ea-settings-wrap.wpb-ea-settings-sections-no .form-addons-container .form-addon.form-addons-section-title:first-child {
+  padding-top: 115px;
+}
+.about-wrap.wpb-ea-settings-wrap .nav-tab-wrapper a.nav-tab {
+  display: flex;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  color: #23282d;
+  border: 1px solid transparent;
+  background: #fff;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+}
+.about-wrap.wpb-ea-settings-wrap .nav-tab-wrapper a.nav-tab i {
+  margin-right: 10px;
+  display: inline-block;
+}
+.about-wrap.wpb-ea-settings-wrap .nav-tab-wrapper a.nav-tab.nav-tab-active {
+  color: #fff;
+  border: 1px solid #abc;
+  border-top: 2px solid #3498db;
+  border-bottom: 1px solid #fff;
+  background: #3498db;
+  border-color: #3498db;
+}
+.wpb-ea-settings-submit.wpb-ea-settings-submit-top.wpb-ea-settings-submit-top-fixed {
+  position: fixed;
+  right: 0;
+  width: unset;
+  left: 160px;
+  top: 32px;
+}
+
+
+/**
+ * Responsive
+ */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+ .form-addons-container .form-addon {
+    flex:  0 50%;
+  }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .form-addons-container .form-addon {
+    flex:  0 33.33%;
+  }
+}
+
+/* Only bellow 768px */
+@media (max-width: 768px) {  
+  .wpb-ea-settings-submit.wpb-ea-settings-submit-top.wpb-ea-settings-submit-top-fixed {
+    position: absolute;
+  }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .form-addons-container .form-addon {
+    flex:  0 33.33%;
+  }
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .form-addons-container .form-addon {
+    flex:  0 25%;
+  }
+}
+
+/* Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {  
+  .form-addons-container .form-addon {
+    flex:  0 20%;
+  }
+}
+
+/* Extra large devices (large desktops, 1600px and up) */
+@media (min-width: 1600px) {  
+  .form-addons-container .form-addon {
+    flex:  0 16.66%;
+  }
+}
+
+
+/**
+ * RTL
+ */
+
+.rtl .about-wrap.wpb-ea-settings-wrap .nav-tab-wrapper a.nav-tab i {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.rtl .form-addons-container .form-addon .addon-switch {
+  right: unset;
+  left: 10px;
+}
+.rtl .form-addons-container .form-addon.form-addons-section-title .form-addon-inner {
+  border-left: 0;
+  border-right: 4px solid #3498db;
+}
+.rtl .wpb-ea-settings-wrap .form-table th {
+  padding: 20px 20px 20px 10px;
+}
+.rtl .wpb-ea-settings-submit.wpb-ea-settings-submit-top.wpb-ea-settings-submit-top-fixed {
+  left: 0;
+  right: 160px;
+}
