@@ -394,6 +394,7 @@ if ( ! class_exists( 'Astra_Customizer' ) ) {
 		 * @return void
 		 */
 		public function include_configurations() {
+			// @codingStandardsIgnoreStart WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
 			require ASTRA_THEME_DIR . 'inc/customizer/configurations/class-astra-customizer-config-base.php';
 
 			/**
@@ -418,6 +419,7 @@ if ( ! class_exists( 'Astra_Customizer' ) ) {
 			require ASTRA_THEME_DIR . 'inc/customizer/configurations/typography/class-astra-content-typo-configs.php';
 			require ASTRA_THEME_DIR . 'inc/customizer/configurations/typography/class-astra-header-typo-configs.php';
 			require ASTRA_THEME_DIR . 'inc/customizer/configurations/typography/class-astra-single-typo-configs.php';
+			// @codingStandardsIgnoreEnd WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
 
 		}
 
@@ -470,10 +472,12 @@ if ( ! class_exists( 'Astra_Customizer' ) ) {
 				$wp_customize->register_section_type( 'Astra_Pro_Customizer' );
 			}
 
+			// @codingStandardsIgnoreStart WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
 			require ASTRA_THEME_DIR . 'inc/customizer/extend-customizer/class-astra-wp-customize-panel.php';
 			require ASTRA_THEME_DIR . 'inc/customizer/extend-customizer/class-astra-wp-customize-section.php';
 			require ASTRA_THEME_DIR . 'inc/customizer/extend-customizer/class-astra-wp-customize-separator.php';
 			require ASTRA_THEME_DIR . 'inc/customizer/customizer-controls.php';
+			// @codingStandardsIgnoreEnd WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
 
 			/**
 			 * Add Controls
@@ -667,9 +671,11 @@ if ( ! class_exists( 'Astra_Customizer' ) ) {
 			/**
 			 * Helper files
 			 */
+			// @codingStandardsIgnoreStart WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
 			require ASTRA_THEME_DIR . 'inc/customizer/class-astra-customizer-partials.php';
 			require ASTRA_THEME_DIR . 'inc/customizer/class-astra-customizer-callback.php';
 			require ASTRA_THEME_DIR . 'inc/customizer/class-astra-customizer-sanitizes.php';
+			// @codingStandardsIgnoreEnd WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
 		}
 
 		/**
@@ -683,8 +689,7 @@ if ( ! class_exists( 'Astra_Customizer' ) ) {
 			/**
 			 * Override Defaults
 			 */
-			require ASTRA_THEME_DIR . 'inc/customizer/override-defaults.php';
-
+			require ASTRA_THEME_DIR . 'inc/customizer/override-defaults.php';// phpcs:ignore WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
 		}
 
 		/**
@@ -696,8 +701,8 @@ if ( ! class_exists( 'Astra_Customizer' ) ) {
 		public function astra_pro_upgrade_configurations( $wp_customize ) {
 
 			if ( ! defined( 'ASTRA_EXT_VER' ) ) {
-				require ASTRA_THEME_DIR . 'inc/customizer/astra-pro/class-astra-pro-customizer.php';
-				require ASTRA_THEME_DIR . 'inc/customizer/astra-pro/class-astra-pro-upgrade-link-configs.php';
+				require ASTRA_THEME_DIR . 'inc/customizer/astra-pro/class-astra-pro-customizer.php';// phpcs:ignore WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
+				require ASTRA_THEME_DIR . 'inc/customizer/astra-pro/class-astra-pro-upgrade-link-configs.php';// phpcs:ignore WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
 			}
 		}
 
@@ -708,8 +713,6 @@ if ( ! class_exists( 'Astra_Customizer' ) ) {
 		 * @return void
 		 */
 		public function controls_scripts() {
-
-			global $wp_version;
 
 			$js_prefix  = '.min.js';
 			$css_prefix = '.min.css';
@@ -742,7 +745,8 @@ if ( ! class_exists( 'Astra_Customizer' ) ) {
 			 *
 			 * @since 2.5.3
 			 */
-			if ( version_compare( $wp_version, '5.4.99', '>=' ) ) {
+			if ( astra_wp_version_compare( '5.4.99', '>=' ) ) {
+				// Localizing variables.
 				wp_localize_script(
 					'wp-color-picker',
 					'wpColorPickerL10n',
@@ -972,7 +976,7 @@ if ( ! class_exists( 'Astra_Customizer' ) ) {
 					if ( false !== $fullsizepath || file_exists( $fullsizepath ) ) {
 
 						if ( ! function_exists( 'wp_generate_attachment_metadata' ) ) {
-							require_once ABSPATH . 'wp-admin/includes/image.php';
+							require_once ABSPATH . 'wp-admin/includes/image.php';// phpcs:ignore WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
 						}
 
 						$metadata = wp_generate_attachment_metadata( $image->ID, $fullsizepath );

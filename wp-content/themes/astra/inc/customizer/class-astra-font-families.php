@@ -144,7 +144,7 @@ if ( ! class_exists( 'Astra_Font_Families' ) ) :
 				}
 
 				if ( ( ASTRA_THEME_DIR . 'assets/fonts/google-fonts.json' ) === $google_fonts_json_file ) {
-					$google_fonts_arr = include $google_fonts_file;
+					$google_fonts_arr = include $google_fonts_file;// phpcs:ignore: WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
 				} else {
 					if ( ! file_exists( $google_fonts_json_file ) ) {
 						return array();

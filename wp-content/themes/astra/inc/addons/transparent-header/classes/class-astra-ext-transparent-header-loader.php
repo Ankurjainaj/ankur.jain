@@ -168,6 +168,7 @@ if ( ! class_exists( 'Astra_Ext_Transparent_Header_Loader' ) ) {
 		 */
 		public function customize_register( $wp_customize ) {
 
+			// @codingStandardsIgnoreStart WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
 			/**
 			 * Register Panel & Sections
 			 */
@@ -179,7 +180,7 @@ if ( ! class_exists( 'Astra_Ext_Transparent_Header_Loader' ) ) {
 			require_once ASTRA_THEME_TRANSPARENT_HEADER_DIR . 'classes/sections/class-astra-customizer-colors-transparent-header-configs.php';
 			// Check Transparent Header is activated.
 			require_once ASTRA_THEME_TRANSPARENT_HEADER_DIR . 'classes/sections/class-astra-customizer-transparent-header-configs.php';
-
+			// @codingStandardsIgnoreEnd WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
 		}
 
 		/**

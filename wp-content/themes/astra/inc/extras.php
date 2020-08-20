@@ -186,7 +186,7 @@ if ( ! function_exists( 'astra_check_is_ie' ) ) :
 		$is_ie = false;
 
 		if ( ! empty( $_SERVER['HTTP_USER_AGENT'] ) ) {
-			$ua = htmlentities( $_SERVER['HTTP_USER_AGENT'], ENT_QUOTES, 'UTF-8' );
+			$ua = htmlentities( sanitize_text_field( wp_unslash( $_SERVER['HTTP_USER_AGENT'] ) ), ENT_QUOTES, 'UTF-8' );
 			if ( strpos( $ua, 'Trident/7.0' ) !== false ) {
 				$is_ie = true;
 			}
@@ -198,7 +198,7 @@ if ( ! function_exists( 'astra_check_is_ie' ) ) :
 endif;
 
 /**
- * Replace heade logo.
+ * Replace header logo.
  */
 if ( ! function_exists( 'astra_replace_header_logo' ) ) :
 
@@ -311,6 +311,19 @@ endif;
  */
 function astra_attr( $context, $attributes = array(), $args = array() ) {
 	return Astra_Attr::get_instance()->astra_attr( $context, $attributes, $args );
+}
+
+	/**
+	 * Check the WordPress version.
+	 *
+	 * @since  2.5.4
+	 * @param string $version   WordPress version to compare with the current version.
+	 * @param string $compare   Comparison value i.e > or < etc.
+	 * @return bool            True/False based on the  $version and $compare value.
+	 */
+function astra_wp_version_compare( $version, $compare ) {
+
+	return version_compare( get_bloginfo( 'version' ), $version, $compare );
 }
 
 /**

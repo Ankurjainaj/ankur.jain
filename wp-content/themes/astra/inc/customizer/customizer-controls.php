@@ -15,6 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 $control_dir = ASTRA_THEME_DIR . 'inc/customizer/custom-controls';
 
+// @codingStandardsIgnoreStart WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
 require $control_dir . '/class-astra-customizer-control-base.php';
 require $control_dir . '/sortable/class-astra-control-sortable.php';
 require $control_dir . '/radio-image/class-astra-control-radio-image.php';
@@ -36,3 +37,4 @@ require $control_dir . '/border/class-astra-control-border.php';
 require $control_dir . '/customizer-link/class-astra-control-customizer-link.php';
 require $control_dir . '/settings-group/class-astra-control-settings-group.php';
 require $control_dir . '/select/class-astra-control-select.php';
+// @codingStandardsIgnoreEnd WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound

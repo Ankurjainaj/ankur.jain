@@ -42,7 +42,7 @@ class Astra_Filesystem {
 		global $wp_filesystem;
 
 		if ( ! $wp_filesystem ) {
-			require_once ABSPATH . '/wp-admin/includes/file.php';
+			require_once ABSPATH . '/wp-admin/includes/file.php';// phpcs:ignore WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
 
 			$context = apply_filters( 'request_filesystem_credentials_context', false );
 
