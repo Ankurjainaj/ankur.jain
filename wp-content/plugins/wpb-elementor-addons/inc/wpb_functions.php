@@ -351,6 +351,8 @@ function wpb_ea_body_class( $classes ) {
     return $classes;
 }
 
+
+
 /**
  * Add Custom Icons to the New Icons Control
  */

@@ -4,7 +4,7 @@ Plugin URI: https://wpbean.com/
 Contributors: wpbean
 Tags: Elementor, Elementor addons, elementor templates, elementor extensions, elementor modules, page builder, portfolio, carousel, posts grid, icon box, service box, content box, Filterable Gallery, Pricing Table, CounterUp, Testimonial, Video PopUp, Team Members, Fancy List
 Requires at least: 4.5
-Tested up to: 5.4.2
+Tested up to: 5.5
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -93,6 +93,10 @@ We test this plugin with so many free and premium themes. It should work with an
 
 
 == Changelog ==
+
+= Version 1.0.7.7 - 2020-08-21 =
+* Helper Class added.
+* Added WordPress 5.5 and WooCommerce 4.4.1 support.
 
 = Version 1.0.7.6 - 2020-07-28 =
 * User role issue fixed.

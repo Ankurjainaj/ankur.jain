@@ -117,7 +117,7 @@ class WPB_EA_Plugin_Settings {
                 array(
                     'name'      => WPB_EA_PREFIX . 'news_ticker',
                     'label'     => esc_html__( 'News Ticker', 'wpb-elementor-addons' ),
-                    'desc'      => esc_html__( 'News Ticker This news ticker can scroll/slide content in a different style.', 'wpb-elementor-addons' ),
+                    'desc'      => esc_html__( 'This news ticker can scroll/slide content in a different style.', 'wpb-elementor-addons' ),
                     'icon'      => 'eicon-document-file',
                     'type'      => 'toggle',
                     'default'   => 'on',

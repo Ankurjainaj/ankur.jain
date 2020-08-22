@@ -3,14 +3,14 @@
  * Plugin Name:       WPB Elementor Addons
  * Plugin URI:        https://wpbean.com/
  * Description:       Highly customizable addons for Elementor page builder. 
- * Version:           1.0.7.6
+ * Version:           1.0.7.7
  * Author:            wpbean
  * Author URI:        https://wpbean.com
  * Text Domain:       wpb-elementor-addons
  * Domain Path:       /languages
  *
  * WC requires at least: 3.5
- * WC tested up to: 4.3.1
+ * WC tested up to: 4.4.1
  */
 
 
@@ -20,7 +20,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
 
 // Define WPB_EA_Version.
 if ( ! defined( 'WPB_EA_Version' ) ) {
-	define( 'WPB_EA_Version', '1.0.7.6' );
+	define( 'WPB_EA_Version', '1.0.7.7' );
 }
 
 // Define WPB_EA_URL.
@@ -100,6 +100,7 @@ class WPB_Elementor_Addons {
      * @return void
      */
     function file_includes() {
+        require_once dirname( __FILE__ ) . '/inc/helper.php';
         require_once dirname( __FILE__ ) . '/inc/wpb_functions.php';
         require_once dirname( __FILE__ ) . '/inc/wpb_scripts.php';
         require_once dirname( __FILE__ ) . '/admin/admin-page.php';

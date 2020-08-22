@@ -27,7 +27,14 @@
   right: 0;
   bottom: 0;
 }
-
+.wpb-ea-pro-news-ticker .bn-news ul li img {
+  max-width: 25px;
+  margin-right: 8px;
+}
+.rtl .wpb-ea-pro-news-ticker .bn-news ul li img {
+  margin-right: 0;
+  margin-left: 8px;
+}
 
 
 
